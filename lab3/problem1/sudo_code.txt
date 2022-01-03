@@ -1,0 +1,40 @@
+
+MAX_SIZE= #
+slot= MAX_SIZE;
+
+enroll()
+{
+
+	lock() ; //only allow one thread to reach the critical section at a time
+	
+	if(slot==0){  print("Class is full\n")}
+	
+	else{  slot--;  }
+	
+	unlock(); 
+
+
+}
+
+
+disenroll()
+{
+
+	lock(); //only allow one thread to reach the critical section at a time
+	
+	if(slot==MAX_SIZE){ print("Class is empty\n")}
+
+	else slot++;
+	
+	unlock();	
+
+}
+
+
+
+
+
+
+
+
+

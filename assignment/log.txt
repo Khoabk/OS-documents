@@ -1,0 +1,52 @@
+	Loaded a process at input/proc/p0, PID: 1
+Time slot   0
+Time slot   1
+	CPU 0: Dispatched process  1
+Time slot   2
+
+At pc 1, mem stat for PID 1:
+ 000 001
+	num_pages allocated: 2
+000: 00000-003ff - PID: 01 (idx 000, nxt: 001)
+001: 00400-007ff - PID: 01 (idx 001, nxt: -01)
+	Loaded a process at input/proc/p1, PID: 2
+Time slot   3
+	CPU 1: Dispatched process  2
+
+At pc 2, mem stat for PID 1:
+ 002 003	Loaded a process at input/proc/p1, PID: 3
+ 004 005 006
+	num_pages allocated: 5
+002: 00800-00bff - PID: 01 (idx 000, nxt: 003)
+003: 00c00-00fff - PID: 01 (idx 001, nxt: 004)
+004: 01000-013ff - PID: 01 (idx 002, nxt: 005)
+005: 01400-017ff - PID: 01 (idx 003, nxt: 006)
+006: 01800-01bff - PID: 01 (idx 004, nxt: -01)
+Time slot   4
+	Loaded a process at input/proc/p1, PID: 4
+
+At pc 1, mem stat for PID 2:
+ 007 008
+At pc 3, clear mem for PID: 1
+000: 00000-003ff - PID: 01 (idx 000, nxt: 001)
+001: 00400-007ff - PID: 01 (idx 001, nxt: -01)
+ 009 010 011
+	num_pages allocated: 5
+007: 01c00-01fff - PID: 02 (idx 000, nxt: 008)
+008: 02000-023ff - PID: 02 (idx 001, nxt: 009)
+009: 02400-027ff - PID: 02 (idx 002, nxt: 010)
+010: 02800-02bff - PID: 02 (idx 003, nxt: 011)
+011: 02c00-02fff - PID: 02 (idx 004, nxt: -01)
+Time slot   5
+
+At pc 4, mem stat for PID 1:
+
+At pc 2, mem stat for PID 2:
+ 000 001 012 000
+	num_pages allocated: 1
+000: 00000-003ff - PID: 01 (idx 000, nxt: -01)
+ 013 014 015 016 017 018 019 020 021 022 023 024 025 026 027 028 029 030 031 032 033 034 035 036 037 038 039 040 041 042 043 044 045 046
+	num_pages allocated: 37
+000: 00000-003ff - PID: 02 (idx 000, nxt: -01)
+Segmentation fault (core dumped)
+

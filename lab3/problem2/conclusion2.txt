@@ -1,0 +1,8 @@
+cond_usg.c:
+The program makes sure that the count value updated by one thread at a time by applying mutex lock synchronization. It also garrantees that when count value reaches 20, it will be incremented by 80 thanks to the conditional variable application. Hence the count value is always 290 at the end.
+
+no_synch.c:
+After removing all entry and exit section of the critical section, thread 1, 2 and 3 run cuncerruntly so the result can either be
+290 or 210:
+290 is when count value is less than COUNT_LIMIT, and thread1 executes, hence the count value will be incremented by 80 in the while loop. 
+210 is the case when thread 1 executes when count value is greater than COUNT_LIMIT, thus the while loop in Watch_count is ignored so the count value is not adding by 80, and instead of ending up with 290, 290 - 80 = 210 is the result.

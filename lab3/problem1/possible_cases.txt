@@ -1,0 +1,63 @@
+By allowing multiple accesses simutaneuosly the program can fall into the following problems:
+1. Multiple enrollment at the same time:
+	When the enroll() function is executed variable slot (indicating the number of slots available in the class) gets decrementd once by going through the following procedure: 
+	read the value of slot variable,
+	perform subtraction,
+	rewrite the value back to the register
+
+Suppose at the same time another thread executes the enroll() function then it also goes through the same procedure and the two procedure can interleave as shown below:
+
+	t1: read the value of slot variable
+	
+	t2: read the value of slot variable   \\ same value of slot variable in t1
+	
+	t1: perform decrement
+	
+	t2: perform decrement
+	
+	t1: rewrite the value back to the register
+	
+	t2: rewrite the value back to the register
+	
+by the end the slot variable only gets decremented once instead of twice, if many of this situation occurs the actual number of enrollments is far different from what variable slot indicates.
+
+
+
+2. Multiple disenrollmet at the same time:
+	Similar to the case multiple enrollments, however, this time, the slot variable gets incremented, suppose two thread are calling disenroll() function simultanuosly we have:
+	 
+	t1: read the value of slot variable
+	
+	t2: read the value of slot variable   \\ same value of slot variable in t1
+	
+	t1: perform increment
+	
+	t2: perform increment
+	
+	t1: rewrite the value back to the register
+	
+	t2: rewrite the value back to the register
+	
+The slot variable is again only incremented once.
+
+
+3. Mulitiple enrollments and disenrollments at the same time:
+	In this situation suppose two threads execute enroll() and disenroll() each at the same time we have:
+	 	
+	t1: read the value of slot variable
+	
+	t2: read the value of slot variable   \\ same value of slot variable in t1
+	
+	t1: perform decrement
+	
+	t2: perform increment
+	
+	t2: rewrite the value back to the register
+	
+	t1: rewrite the value back to the register
+	
+
+In this case instead of remaining unchanged, the slot variable get decremented once, if more than 2 simultaneus accesses, the situation can be worse. 	
+	
+	
+	

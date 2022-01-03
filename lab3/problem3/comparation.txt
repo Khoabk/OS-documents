@@ -1,0 +1,1 @@
+Since mutex and semaphore is used to limit the access right to the critical section to only one thread at a time hence the execution time is slower

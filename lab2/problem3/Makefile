@@ -1,0 +1,2 @@
+code: code.c
+	gcc -pthread -o code code.c 

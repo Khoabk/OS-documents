@@ -1,0 +1,3 @@
+C:/Users/dang khoa/Documents/operating system/assignment/source_code/cmake-build-debug/CMakeFiles/source_code.dir
+C:/Users/dang khoa/Documents/operating system/assignment/source_code/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dang khoa/Documents/operating system/assignment/source_code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

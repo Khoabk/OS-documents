@@ -1,0 +1,30 @@
+Compiling commands:
+
+gcc source.c -o opt
+
+Description: This wil compile the source.c file but instead of giving default name hence executed using ./opt, it will give output file as opt.
+
+
+gcc source.c -Werror -o opt
+
+-Werror: This will compile the source and show the warning if any errors is there in the program, -W is for giving warning
+
+
+Example of multiple files compiling:
+
+gcc -c frac.c
+gcc -c main.c
+gcc frac.o main.o -o sample
+
+
+
+rm command in Linux with examples
+
+Syntax rm [OPTION]... FILE...
+
+rm a.txt   // File a.txt is deleted
+
+rm -i d.txt // Interative Deletion :  the -i option makes the command ask the user for confirmation before 	    // removing each file, you have to press y for confirm deletion
+
+rm -f file.txt  // rm prompts for confirmation removal if a file is write protected. The -f option overrides this 		// minor protection and removes the file forcefully
+rm -r Dir 	// To delete a directory

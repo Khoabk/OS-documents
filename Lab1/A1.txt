@@ -1,0 +1,5 @@
+Anvatages of makefile:
+Makefile can help reduce the number of files recompiled when only few lines of codes are modified in a single file. This is particularly helpful when working in a large project where recompiling all files for a single modification is wastfull.
+
+
+Given the demonstration provided along, we can see that, at the first time the two files hello.c and sth.c were all compiled, and for the second time running the makefile they were just linked together because no modification has been detected. However, when we update the timestamp of hello.c file, a modification has been detected and only the modified file was recompiled when running the makefile.

@@ -1,0 +1,7 @@
+Q1:   
+-When a thread is created, it has it's own stack region, while sharing Memory Mapping segemnts, Heap, BSS segment, Data segment and Text segment with other threads in the same process.
+-When a process is created it shares no resources with other processes.
+
+
+Q2:
+When threads are executed concurrently without parallelism, each thread will be executed for a fix amount of time, if the thread is finished within those time, it terminates, otherwise it will return to the waitting queue and the cpu will the next thread.

@@ -1,0 +1,782 @@
+    1  df -h
+    2  gcc --version
+    3  sudo apt install gcc
+    4  ls
+    5  cd Donwloads
+    6  cd Downloads
+    7  ls
+    8  chmod +x Xilinx_Vivado_SDK_Web_2018.2_0614_1954_Lin64.bin
+    9  ls
+   10  sudo ./Xilinx_Vivado_SDK_Web_2018.2_0614_1954_Lin64.bin
+   11  LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/opt/Xilinx/Vivado/2018.1/lib/lnx64.o/:/opt/Xilinx/SDK/2018.1/lib/lnx64.o/:/opt/Xilinx/Vivado/2018.1/lnx64/tools/clang-3.9/lib /opt/Xilinx/Vivado/2018.1/bin/vivado -nolog -nojournal -mode batch -source /opt/Xilinx/.xinstall/Vivado_2018.1/scripts/xlpartinfo.tcl -tclargs /opt/Xilinx/Vivado/2018.1/data/parts/ins
+   12  cd /
+   13  ls
+   14  cd opt
+   15  ls
+   16  cd /
+   17  ps -p
+   18  ps -p $$
+   19  find / -name "settings*sh"
+   20  sudo find / -name "settings*sh"
+   21  sudo find / -name "setting*sh"
+   22  sudo find/ -name "setting*sh"
+   23  cd 
+   24  cd Downloads
+   25  ls
+   26  sudo ./Xilinx_Vivado_SDK_Web_2018.2_0614_1954_Lin64.bin
+   27  LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/opt/Xilinx/Vivado/2018.2/lib/lnx64.o/:/opt/Xilinx/SDK/2018.2/lib/lnx64.o/:/opt/Xilinx/Vivado/2018.2/lnx64/tools/clang-3.9/lib /opt/Xilinx/Vivado/2018.2/bin/vivado -nolog -nojournal -mode batch -source /opt/Xilinx/.xinstall/Vivado_2018.2/scripts/xlpartinfo.tcl -tclargs /opt/Xilinx/Vivado/2018.2/data/parts/installed_devices.txt
+   28  cd /
+   29  ls
+   30  cd opt
+   31  ls
+   32  cd Xilinx
+   33  ls
+   34  cd Vivadp
+   35  cd Vivado
+   36  ls
+   37  cls
+   38  cd
+   39  sudo add-apt-repository universe
+   40  sudo apt-get install libncurses5 libncurses5:i386
+   41  cd Downloads
+   42  ls
+   43  sudo ./Xilinx_Vivado_SDK_Web_2018.2_0614_1954_Lin64.bin
+   44  sudo find / -name "settings*sh"
+   45  source /opt/Xilinx/Vivado/2018.2/settings64.sh
+   46  vitis_hls
+   47  SDK
+   48  Vivado
+   49  vivado
+   50  sdk
+   51  vitis
+   52  vivado_hls
+   53  which gcc
+   54  /opt/Xilinx
+   55  # /opt/Xilinx
+   56  cd /usr/bin/gcc
+   57  cd /usr/bin/
+   58  ls
+   59  cls
+   60  cd /opt
+   61  ls
+   62  cd Xilinx/
+   63  ls
+   64  cd Vivado/
+   65  ls
+   66  cd 2018.2/
+   67  ls
+   68  cd lnx64
+   69  ls
+   70  cd tools
+   71  ls
+   72  cd
+   73  $ ldd --version
+   74  ldd --version
+   75  sudo -su
+   76  sudo su -
+   77  cd
+   78  sudo find / -name "settings*sh"
+   79  source /opt/Xilinx/Vivado/2018.2/settings64.sh
+   80  vivado_hls
+   81  source /opt/Xilinx/Vivado/2018.2/settings64.sh
+   82  vivado
+   83  df -h
+   84  cd vivado/
+   85  find / -name "settings*sh"
+   86  sudo find / -name "settings*sh"
+   87  source /opt/Xilinx/Vivado/2018.2/settings64.sh
+   88  vivado_hls
+   89  sudo find -name "setting*sh"
+   90  sudo find -name "settings*sh"
+   91  sudo find / -name "settings*sh"
+   92  source /opt/Xilinx/Vivado/2018.2/settings64.sh
+   93  vivado_hls
+   94  cd /
+   95  ls
+   96  cd opt
+   97  ls
+   98  cd Xilinx
+   99  ls
+  100  cd sdk
+  101  cd SDK/
+  102  ls
+  103  cd 2018.2
+  104  ls
+  105  cd bin
+  106  ls
+  107  cd ..
+  108  ls
+  109  cd eclipse/
+  110  ls
+  111  cd lnx64.o/
+  112  ls
+  113  cd configuration/
+  114  l
+  115  cd org.eclipse.equinox.source/
+  116  ls
+  117  source.info
+  118  cd ..
+  119  ls
+  120  config.ini
+  121  touch config.ini
+  122  sudo touch config.ini
+  123  cd ..
+  124  ls
+  125  cd readme/
+  126  ls
+  127  fierfox readme_eclipse.html 
+  128  sudo apt -get install lynx
+  129  sudo apt-get install lynx
+  130  lynx readme_eclipse.html 
+  131  vivado_hls
+  132  cd ..
+  133  cd
+  134  ls
+  135  cd Documents/
+  136  ls
+  137  cd logic_design/
+  138  ls
+  139  cd demo_hls/
+  140  ls
+  141  cd /
+  142  cd opt/
+  143  ls
+  144  cd Xilinx/
+  145  ls
+  146  cd SDK/
+  147  ls
+  148  cd 2018.2/
+  149  ls
+  150  cd gnu/
+  151  ls
+  152  cd armr5/
+  153  ls
+  154  cd lin/
+  155  ls
+  156  cd gcc-arm-none-eabi/
+  157  ls
+  158  cd share/
+  159  ls
+  160  cd doc/
+  161  ls
+  162  cd gcc-arm-none-eabi/
+  163  ls
+  164  cd info/
+  165  ls
+  166  sudo apt install nano -y
+  167  nano gcc.info
+  168  cd ..
+  169  ls
+  170  cd arm-none-eabi/
+  171  ls
+  172  cd bin/
+  173  ls
+  174  strip
+  175  ld
+  176  cd ..
+  177  ls
+  178  cd ..
+  179  ls
+  180  cd bin/
+  181  ls
+  182  cd ..
+  183  ls
+  184  cd ..
+  185  ls
+  186  cd ..
+  187  ls
+  188  cd microblaze/
+  189  ls
+  190  cd linux_toolchain/
+  191  ls
+  192  cd lin64_le/
+  193  ls
+  194  cd bin/
+  195  ls
+  196  cd ..
+  197  ls
+  198  cd ..
+  199  ls
+  200  cd ..
+  201  ls
+  202  cd ..
+  203  ls
+  204  cd armr5/
+  205  ls
+  206  cd lin/
+  207  ls
+  208  cd gcc-arm-none-eabi/
+  209  ls
+  210  cd include/
+  211  ls
+  212  cd gdb/
+  213  ls
+  214  nano jit-reader.h 
+  215  cd ..
+  216  ls
+  217  cd ..
+  218  cd
+  219  find / -name "settings*sh"
+  220  sudo find / -name "settings*sh"
+  221  source /opt/Xilinx/Vivado/2018.2/settings64.sh
+  222  vivado_hls
+  223  cd Documents/
+  224  ls
+  225  cd logic_design/
+  226  ls
+  227  nano vivado_hls.log 
+  228  cd demo_hls/
+  229  ls
+  230  cd solution1/
+  231  ls
+  232  cd
+  233  ls
+  234  cd Documents/
+  235  ls
+  236  cd logic_design/
+  237  ls
+  238  nano vivado_hls.log 
+  239  cd demo_hls/
+  240  ls
+  241  g++ -c divide_core.cpp 
+  242  gcc -c divide_core.cpp 
+  243  sudo apt install g++
+  244  vivado_hls
+  245  ls
+  246  g++ -c divide_core.cpp 
+  247  g++ -c test.cpp 
+  248  ls
+  249  g++ -o test_bench test.o divide_core.o
+  250  ls
+  251  ./test_bench
+  252  nano divide_core.cpp 
+  253  nano test.cpp 
+  254  g++ -c test.cpp 
+  255  g++ -o test_bench test.o divide_core.o
+  256  ./test_bench 
+  257  cd ..
+  258  ls
+  259  cd apint_arith/
+  260  ls
+  261  gcc -c apint_arith.c
+  262  cd /
+  263  ls
+  264  cd opt/
+  265  ls
+  266  cd Xilinx/
+  267  ls
+  268  cd Vivado/
+  269  ls
+  270  cd 2018.2/
+  271  ls
+  272  cd lnx64/
+  273  ls
+  274  cd t
+  275  cd tools/
+  276  ls
+  277  cd g
+  278  cd gcc/
+  279  ls
+  280  cd libexec/
+  281  ls
+  282  cd gcc/
+  283  ls
+  284  cd x86_64-unknown-linux-gnu/
+  285  ls
+  286  cd 4.6.3/
+  287  ls
+  288  cd install-tools/
+  289  ls
+  290  nano mkheaders 
+  291  cd
+  292  cd /
+  293  cd opt/
+  294  cd
+  295  vivado_hls
+  296  cd /
+  297  cd opt/
+  298  ls
+  299  cd Xilinx/
+  300  ls
+  301  cd Vivado/
+  302  ls
+  303  cd 2018.2/
+  304  ls
+  305  cd
+  306  ls
+  307  cd Documents/
+  308  ls
+  309  cd logic_design/
+  310  ls
+  311  nano vivado_hls.log 
+  312  cd /
+  313  cd /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/vivado_hls
+  314  cd /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/
+  315  ls
+  316  vivado_hls
+  317  ls
+  318  cd ..
+  319  ls
+  320  cd ..
+  321  ls
+  322  cd ..
+  323  ls
+  324  cd ..
+  325  ls
+  326  cd 2018.2/
+  327  ls
+  328  cd lnx64/
+  329  ls
+  330  cd tools/
+  331  ls
+  332  cd gcc/
+  333  ls
+  334  cd bin/
+  335  ls
+  336  nano sth.c
+  337  gcc
+  338  find / -name "test.cpp"
+  339  sudo find / -name "test.cpp"
+  340  sudo find /-name "gcc"
+  341  sudo find /-name "gnu"
+  342  sudo find / -name "gnu"
+  343  sudo find / -name "gcc"
+  344  ls
+  345  sudo find /-name "test.cpp"
+  346  sudo find / -name "test.cpp"
+  347  gcc -c /home/khoa/Documents/logic_design/demo_hls/test.cpp
+  348  sudo gcc -c /home/khoa/Documents/logic_design/demo_hls/test.cpp
+  349  ls
+  350  rm test.o
+  351  sudo
+  352  sudo sudo
+  353  ls
+  354  sudo rm test.o
+  355  ls
+  356  sudo find / -name "test.cpp"
+  357  cd /home/khoa/Documents/logic_design/demo_hls/test.cpp
+  358  cd /home/khoa/Documents/logic_design/demo_hls/
+  359  ls
+  360  vivado_hls.app
+  361  nano vivado_hls.app 
+  362  cd solution1/
+  363  ls
+  364  nano solution1.log 
+  365  nana directives.tcl 
+  366  nano directives.tcl 
+  367  cd csim/
+  368  ls
+  369  cd build/
+  370  ls
+  371  nano csim.mk 
+  372  ls
+  373  sim.sh
+  374  nano sim.sh 
+  375  cd opt/Xilinx/Vivado/2018.2/bin/vivado_hls run_sim.tcl
+  376  cd opt/Xilinx/Vivado/2018.2/bin/vivado_hls
+  377  cd opt/Xilinx/Vivado/2018.2/bin/
+  378  opt/Xilinx/Vivado/2018.2/bin/vivado_hls run_sim.tcl
+  379  /opt/Xilinx/Vivado/2018.2/bin/vivado_hls run_sim.tcl
+  380  cd /opt/Xilinx/Vivado/2018.2/bin/vivado_hls
+  381  cd /
+  382  cd /opt/Xilinx/Vivado/2018.2/bin/vivado_hls
+  383  cd /opt/Xilinx/Vivado/2018.2/bin/
+  384  ls
+  385  sudo find / -name "run_sim.tcl"
+  386  cd /home/khoa/Documents/logic_design/axi_lite/proj_axi_lite/solution1/csim/build/
+  387  ls
+  388  nano run_sim.tcl
+  389  make -f csim.mk
+  390  nano csim.mk
+  391  make csim.mk
+  392  sudo apt install make
+  393  make -f  csim.mk
+  394  cd
+  395  cd  Documents/
+  396  ls
+  397  cd logic_design/
+  398  ls
+  399  cd demo_hls/
+  400  ls
+  401  cd solution1/
+  402  ls
+  403  cd csim/
+  404  ls
+  405  cd build/
+  406  ls
+  407  make -f csim.mk
+  408  nano csim.mk 
+  409  cd /
+  410  ls
+  411  cd usr/
+  412  ls
+  413  cd bin/
+  414  ls
+  415  cd
+  416  apt-get install libc-dev
+  417  sudo apt-get install libc-dev
+  418  ls
+  419  cd Documents/
+  420  ls
+  421  cd logic_design/
+  422  ls
+  423  cd demo_hls/
+  424  ls
+  425  cd solution1/
+  426  ls
+  427  cd csim/
+  428  ls
+  429  cd build/
+  430  ls
+  431  make -f csim.mk 
+  432  sudo apt install gcc-multilib
+  433  ls
+  434  make -f csim.mk 
+  435  sudo ln -s /usr/lib/x86_64-linux-gnu /usr/lib64
+  436  make -f csim.mk 
+  437  ls
+  438  cd obj/
+  439  ls
+  440  cd
+  441  ls
+  442  cd Documents/
+  443  ls
+  444  cd logic_design/
+  445  ls
+  446  nano vivado_hls.log 
+  447  find /usr/ -name crti*
+  448  export LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LIBRARY_PATH
+  449  ls
+  450  cd demo_hls/
+  451  ls
+  452  cd solution1/
+  453  ls
+  454  cd csim/
+  455  ls
+  456  cd build/
+  457  ls
+  458  make -f csim.mk 
+  459  ls
+  460  ./csim.exe
+  461  cd ..
+  462  ls
+  463  cd
+  464  vivado_hls
+  465  source /opt/Xilinx/Vivado/2018.2/settings64.sh
+  466  vivado_hls
+  467  cd Documents/
+  468  ls
+  469  cd logic_design/
+  470  ls
+  471  cd demo_hls/
+  472  ls
+  473  gcc divide_core.o test.o -o sth
+  474  g++ divide_core.o test.o -o sth
+  475  ls
+  476  ./sth
+  477  nano test.o
+  478  nano test.cpp 
+  479  g++ test.cpp 
+  480  g++ test.cpp -o
+  481  g++ -o test.cpp 
+  482  ls
+  483  gdb ./sth
+  484  ./sth 
+  485  vivado_hls
+  486  ls
+  487  g++ -c  test.cpp
+  488  ls
+  489  g++ test.o divide_core.o -o sth
+  490  ./sth
+  491  gdb ./sth
+  492  ls
+  493  cd solution1/
+  494  ls
+  495  cd csim/
+  496  ls
+  497  cd build/
+  498  ls
+  499  ./csim.exe 
+  500  gdb ./csim.exe 
+  501  ls
+  502  gdb ./csim.exe 
+  503  sudo find / -name "settings*h"
+  504  source /opt/Xilinx/Vivado/2018.2/settings64.sh
+  505  vivado_hls
+  506  cd Doc
+  507  cd Documents/
+  508  ls
+  509  cd logic_design/
+  510  ls
+  511  cd NetFPGA-SUME-live-release_1.10.0/
+  512  ls
+  513  cd contrib-projects/
+  514  ls
+  515  cd reference_switch_lcam/
+  516  ls
+  517  cd hw/
+  518  ls
+  519  cd ..
+  520  ls
+  521  cd sw/
+  522  ls
+  523  cd host/
+  524  ls
+  525  cd apps/
+  526  ls
+  527  nano rwaxi.c 
+  528  cd ..
+  529  ls
+  530  cd ..
+  531  ls
+  532  cd embedded/
+  533  ls
+  534  cd tcl/
+  535  ls
+  536  nano reference_switch_lcam_xsdk.tcl 
+  537  ls
+  538  cd ..
+  539  ls
+  540  cd ..
+  541  ls
+  542  cd ..
+  543  ls
+  544  cd hw/
+  545  ls
+  546  cd hdl/
+  547  ls
+  548  nano top_sim.v 
+  549  nano axi_clocking.v 
+  550  ls
+  551  nano nf_datapath.v 
+  552  cd
+  553  echo $PATH
+  554  vivado_hls
+  555  cd Documents/
+  556  cd logic_design/
+  557  ls
+  558  cd lab2_hls/
+  559  ls
+  560  cd solution1/
+  561  ls
+  562  cd csim/
+  563  ls
+  564  cd report/
+  565  ls
+  566  nano find_csim.log 
+  567  cd ..
+  568  ls
+  569  cd ..
+  570  ls
+  571  cd impl/
+  572  ls
+  573  cd misc/
+  574  ls
+  575  cd ..
+  576  ls
+  577  nano directives.tcl 
+  578  nano script.tcl 
+  579  vivado_hls -f script.tcl 
+  580  cd ..
+  581  ls
+  582  cd ..
+  583  ls
+  584  cd demo_hls/
+  585  ls
+  586  cd ..
+  587  ls
+  588  vivado_hls
+  589  cd Documents/
+  590  ls
+  591  ls -h
+  592  ls -a
+  593  cd logic
+  594  cd logic_design/
+  595  ls
+  596  cd lab2_hls/
+  597  la
+  598  ls
+  599  cd .apc
+  600  ls
+  601  cd ..
+  602  ls
+  603  la
+  604  cd solution1/
+  605  ls
+  606  cd lab2_hls/
+  607  ls
+  608  cd solution1/
+  609  ls
+  610  cd csim/
+  611  ls
+  612  cd report/
+  613  ls
+  614  nano find_csim.log 
+  615  cd ..
+  616  cd
+  617  cd Documents/
+  618  ls
+  619  cd logic_design/
+  620  ls
+  621  rm -rf lab2_hls/
+  622  vivado_hls
+  623  ls
+  624  cd NetFPGA-SUME-live-release_1.10.0/
+  625  ls
+  626  cd projects/
+  627  ls
+  628  cd reference_nic/
+  629  ls
+  630  cd hw/
+  631  ls
+  632  cd hdl/
+  633  ls
+  634  nano top_tb_bd.v 
+  635  cd ..
+  636  ls
+  637  cd create_ip/
+  638  ls
+  639  vivado_hls nf_10ge_interface.tcl 
+  640  cd ..
+  641  ls
+  642  cd ..
+  643  ls
+  644  cd hw/
+  645  ls
+  646  cd hd
+  647  cd hdl/
+  648  ls
+  649  nano top_tb_bd.v 
+  650  ls
+  651  cd ..
+  652  ls
+  653  cd ..
+  654  ls
+  655  cd contrib-projects/
+  656  ls
+  657  cd reference_switch_lcam/
+  658  ls
+  659  cd hw/
+  660  ls
+  661  cd hdl/
+  662  ls
+  663  cd ..
+  664  ls
+  665  cd
+  666  cd Documents/
+  667  ls
+  668  cd logic_design/
+  669  ls
+  670  cd NetFPGA-SUME-live-release_1.10.0/
+  671  ls
+  672  cd lib/
+  673  ls
+  674  cd hw/
+  675  ls
+  676  cd xilinx/
+  677  ls
+  678  cd cores/
+  679  ls
+  680  cd cam_v1_1_0/
+  681  ls
+  682  cd hdl/
+  683  ls
+  684  cd verilog/
+  685  ls
+  686  nano cam.v 
+  687  cd ..
+  688  ls
+  689  cd contrib/
+  690  ls
+  691  cd cores/
+  692  ls
+  693  cd nic_output_port_lookup_v4_0_0/
+  694  ls
+  695  cd hdl/
+  696  ls
+  697  nano nic_output_port_lookup.v 
+  698  ls
+  699  nano output_port_lookup_cpu_regs_defines.v 
+  700  ls
+  701  vivado
+  702  vivado_hls
+  703  ls
+  704  rm axi_lab/
+  705  ls
+  706  cd axi_lab/
+  707  ls
+  708  cd ..
+  709  rm -r axi_lab/
+  710  ls
+  711  cd 
+  712  cd Documents/
+  713  ls
+  714  sudo find / -name "setting*h"
+  715  source /opt/Xilinx/Vivado/2018.2/settings64.sh
+  716  vivado_hls
+  717  cd Documents/
+  718  ls
+  719  cd logic_design/
+  720  ls
+  721  rm test.cpp 
+  722  ls
+  723  rm -f Untitled 
+  724  ls
+  725  rm -f vivado_hls.log 
+  726  ls
+  727  vivado_hls
+  728  q
+  729  ls
+  730  1
+  731  quit
+  732  exit
+  733  ps -a | grep run_long
+  734  ls /proc/14021
+  735  nano /proc/14021/status
+  736  kill -9 14021
+  737  ps -a | grep run_long
+  738  nano /proc/14166/maps
+  739  ldd run_long
+  740  readelf -Ws /lib/libc.so.6 | grep sleep
+  741  ls
+  742  mv sth.h ..
+  743  ls
+  744  nano Makefile 
+  745  ls
+  746  cd ..
+  747  s
+  748  ls
+  749  mv sth.h
+  750  ls
+  751  mv sth.h lab1
+  752  ls
+  753  cd lab1/
+  754  ls
+  755  touch hello.c 
+  756  make all
+  757  touch hello.c
+  758  make all
+  759  nano Makefile 
+  760  make all
+  761  nano Makefile 
+  762  make all
+  763  nano check.c
+  764  gls
+  765  ls
+  766  gcc -o check check.c
+  767  ./check 
+  768  ls
+  769  mkdir 1952785
+  770  ;s
+  771  ls
+  772  cd 1952785/
+  773  ls
+  774  nano example.tx
+  775  ls
+  776  touch example.tx 
+  777  cat example.tx 
+  778  ls
+  779  head -5 example.tx 
+  780  tail -5 example.tx 
+  781  history
+  782  history > history.txt

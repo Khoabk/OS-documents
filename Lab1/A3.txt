@@ -1,0 +1,2 @@
+PARENT: value = 5
+Explanation: because the child process only duplicates the content of the parent process (they don't share the same memory space) so value variable in child process and the one in parent process are different. Hence changing one does't affect the other.
